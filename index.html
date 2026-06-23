@@ -3,17 +3,19 @@
 <title>Big Data in Context — Saif Elsaady</title><style>
 :root{--bg:#0d1117;--card:#161b22;--bd:#30363d;--fg:#e6edf3;--mut:#8b949e;--ac:#58a6ff;--mar:#8c1d40}
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
-a{color:var(--ac);text-decoration:none}.wrap{max-width:860px;margin:0 auto;padding:24px}
+a{color:var(--ac);text-decoration:none}.wrap{max-width:880px;margin:0 auto;padding:24px}
 .top{padding:14px 24px;border-bottom:1px solid var(--bd);font-size:.9rem}
-.hero{padding:40px 24px 8px;max-width:860px;margin:0 auto}
+.hero{padding:38px 24px 6px;max-width:880px;margin:0 auto}
 .cat{display:inline-block;background:var(--mar);color:#fff;font-size:.72rem;padding:3px 10px;border-radius:999px;letter-spacing:.04em}
 h1{margin:.4rem 0 .3rem;font-size:2rem}.tag{color:var(--mut);font-size:1.1rem;margin:0 0 14px}
 .metric{display:inline-block;background:#13241a;border:1px solid #1f6f43;color:#3fb950;padding:6px 14px;border-radius:8px;font-weight:700;margin:6px 0}
-.hero-img{margin:18px 0;border:1px solid var(--bd);border-radius:12px;overflow:hidden;max-height:380px;display:flex;justify-content:center;background:#0a0d12}
-.hero-img img{max-width:100%;object-fit:contain}
+.hero-img{margin:18px auto;border:1px solid var(--bd);border-radius:12px;overflow:hidden;max-width:880px;background:#0a0d12;display:flex;justify-content:center}
+.hero-img img{max-width:100%;max-height:460px;object-fit:contain}
 h2{font-size:1.15rem;border-left:4px solid var(--mar);padding-left:10px;margin-top:30px}
 ul{padding-left:20px}li{margin:6px 0}
 .chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:var(--card);border:1px solid var(--bd);border-radius:999px;padding:4px 12px;font-size:.85rem}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:12px}
+.gal img{width:100%;border:1px solid var(--bd);border-radius:8px;background:#0a0d12}
 .btns{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0}
 .btn{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:10px 16px;font-weight:600}
 .btn:hover{border-color:var(--ac)}.btn.primary{background:var(--ac);color:#06101f;border-color:var(--ac)}
@@ -22,11 +24,15 @@ footer{color:var(--mut);font-size:.82rem;border-top:1px solid var(--bd);margin-t
 <div class="top"><a href="https://selsaady1.github.io/portfolio/">← Portfolio</a> · <a href="https://github.com/selsaady1">github.com/selsaady1</a></div>
 <div class="hero"><span class="cat">Data Science</span><h1>Big Data in Context</h1>
 <p class="tag">Big-data ethics case study on the COMPAS criminal-sentencing algorithm</p><div class="metric">ProPublica&#x27;s analysis of 7,000+ Broward County defendants found Black defendants nearly twice as likely to be falsely labeled high-risk</div></div>
+<div class="wrap" style="padding-top:0"><div class="hero-img"><img src="images/diagram.png" alt=""></div></div>
 <div class="wrap">
-<h2>Overview</h2><p>Coursework for BIO 511 (Big Data) at Arizona State University, centered on a final research paper analyzing the COMPAS proprietary risk-assessment algorithm used in criminal sentencing. The paper argues that competing definitions of algorithmic fairness, calibration versus error-rate parity, are mathematically irreconcilable when group base rates differ, and that trade-secret law has filled the federal regulatory vacuum around such tools. Supporting deliverables include a project proposal and five individual reading responses on data ethics, fairness, and governance.</p>
+<h2>Overview</h2><p>Coursework for BIO 511 (Big Data) at Arizona State University, centered on a final research paper analyzing the COMPAS proprietary risk-assessment algorithm used in criminal sentencing. The paper argues that competing definitions of algorithmic fairness, calibration versus error-rate parity, are mathematically irreconcilable when group base rates differ, and that trade-secret law has filled the federal regulatory vacuum around such tools. Supporting deliverables include a project proposal and five individual reading responses on data ethics, fairness, and governance.
+
+**Highlight:** ProPublica&#x27;s analysis of 7,000+ Broward County defendants found Black defendants nearly twice as likely to be falsely labeled high-risk</p>
 <h2>Key Achievements</h2><ul><li>Wrote a final analytical paper, &#x27;Encoded Injustice,&#x27; framing the 2016 ProPublica COMPAS audit and the Wisconsin Supreme Court ruling in State v. Loomis as a conflict between commercial accuracy and constitutional due process</li><li>Argued the fairness &#x27;impossibility result&#x27;: no algorithm can satisfy both calibration and error-rate parity when recidivism base rates differ between groups without perfect prediction, drawing on Castelnovo et al. (2025)</li><li>Connected the case to broader systemic bias via Obermeyer et al. (2019) on a healthcare risk algorithm and Ruha Benjamin&#x27;s &#x27;New Jim Code,&#x27; and contrasted COMPAS opacity with biobanking consent norms</li><li>Authored a structured project proposal defining the case study, central analytical question, source set, and methodological approach</li><li>Completed five individual reading responses spanning data ethics in modeling practice (Barocas &amp; Boyd, Leonelli), GenBank&#x27;s open-data history (Strasser), algorithmic calibration bias, and the FAIR vs. CARE data-governance frameworks</li></ul>
 <h2>Approach</h2><p>Used a case-study method tracing how distinct actors, Northpointe, the courts, ProPublica, and the defense bar, applied incompatible evaluation criteria to the same tool. Grounded the analysis in the peer-reviewed fairness literature and legal precedent to show the trade-off between fairness metrics is a normative rather than technical choice, then extended it into the regulatory ecosystem of trade-secret protection and emerging transparency mandates.</p>
 <h2>Tools &amp; Technologies</h2><div class="chips"><span class="chip">Microsoft Word</span><span class="chip">Academic literature review</span><span class="chip">Case-study analysis</span></div>
+
 <h2>Results</h2><p>Deliverables are written documents rather than computed metrics; the core conclusion is presented in docs/Elsaady_BIO511_FinalProject.docx, which contends that algorithmic fairness in sentencing cannot be resolved by statistical refinement and requires democratic, normative judgment.</p>
 <div class="btns"><a class="btn primary" href="https://github.com/selsaady1/bio511-big-data">⌨ View source on GitHub</a><a class="btn" href="https://github.com/selsaady1/bio511-big-data/blob/main/docs/Elsaady_BIO511_FinalProject.docx">📄 View deliverable</a><a class="btn" href="https://selsaady1.github.io/portfolio/">All projects</a></div>
 </div>

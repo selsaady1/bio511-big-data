@@ -4,10 +4,14 @@
 
 ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-0a7?style=flat-square) ![Academic literature review](https://img.shields.io/badge/Academic_literature_review-0a7?style=flat-square) ![Case-study analysis](https://img.shields.io/badge/Case--study_analysis-0a7?style=flat-square) 
 
+![Big Data in Context](images/diagram.png)
+
 ### 🌐 Live project page → **https://selsaady1.github.io/bio511-big-data/**
 
 ## Overview
 Coursework for BIO 511 (Big Data) at Arizona State University, centered on a final research paper analyzing the COMPAS proprietary risk-assessment algorithm used in criminal sentencing. The paper argues that competing definitions of algorithmic fairness, calibration versus error-rate parity, are mathematically irreconcilable when group base rates differ, and that trade-secret law has filled the federal regulatory vacuum around such tools. Supporting deliverables include a project proposal and five individual reading responses on data ethics, fairness, and governance.
+
+**Highlight:** ProPublica's analysis of 7,000+ Broward County defendants found Black defendants nearly twice as likely to be falsely labeled high-risk
 
 **Highlight:** ProPublica's analysis of 7,000+ Broward County defendants found Black defendants nearly twice as likely to be falsely labeled high-risk
 
@@ -29,6 +33,7 @@ Used a case-study method tracing how distinct actors, Northpointe, the courts, P
 ## Repository Structure
 ```
 .gitignore
+.nojekyll
 LICENSE
 README.md
 docs/Elsaady_BIO511_FinalProject.docx
@@ -38,6 +43,9 @@ docs/Individual_Reading_Response_Module 2.docx
 docs/Individual_Reading_Response_Module 3.docx
 docs/Individual_Reading_Response_Module 4.docx
 docs/Individual_Reading_Response_Module 5.docx
+images/diagram.png
+images/diagram.svg
+index.html
 ```
 
 ## Results
